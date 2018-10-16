@@ -1,0 +1,393 @@
+html {
+  height: 100%;
+  background-color: #eeeeee;
+  background-image: url('/image/window-bg.png');
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  width: 700px;
+  font-size: 10pt;
+  font-family: Helvetica;
+  background-image: url('/image/content-bg.png');
+  background-repeat: repeat-y;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 180%;
+  letter-spacing: 1px;
+}
+
+#title {
+  width: 100%;
+  background-color: rgb(55, 135, 255);
+  background-image: url('/image/title-bg.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  color: #ffffff;
+}
+
+#content {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+#sections {
+  width: 20%;
+  font-size: 80%;
+  background-color: rgb(152, 193, 255);
+  border-right: 1px solid rgb(111, 168, 252);
+  box-sizing: border-box;
+}
+
+#sections ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+#sections ul a {
+  background-color: #293499;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  display: block;
+  margin: 5px 0;
+  padding: 2px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#sections ul a:hover {
+  background-color: rgb(206, 212, 255);
+  color: #000000;
+}
+
+#login {
+  background-color: #293499;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  display: block;
+  padding: 7px 7px;
+  text-align: center;
+}
+
+#login h3 {
+  margin: 0 0 7px;
+}
+
+#login input, button {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 5px;
+}
+
+#login a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+#signup {
+  margin: 15px;
+  border: 3px solid #293499;
+}
+
+#signup h3 {
+  margin: 5px 0;
+  border-bottom: 2px solid #293499;
+  text-align: center;
+  color: #293499;
+  padding: 0 0 3px;
+}
+
+#signup label {
+  width: 176px;
+  display: block;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+  color: #293499;
+}
+
+#signup input {
+  width: 160px;
+  margin-bottom: 6px;
+  border: 1px solid #293499;
+}
+
+#clear {
+  width: 180px;
+  float: left;
+  text-align: center;
+  border-top: 2px solid #293499;
+  padding-top: 5px;
+}
+
+#send {
+  width: 168px;
+  float: left;
+  text-align: center;
+  border-top: 2px solid #293499;
+  padding-top: 5px;
+}
+
+#clear input,
+#send input {
+  width: 150px;
+  background-color: rgb(152, 193, 255);
+  border: 2px solid #293499;
+  margin-bottom: 5px;
+}
+
+#main {
+  width: 55%;
+  border-right: 1px solid rgb(111, 168, 252);
+  box-sizing: border-box;
+}
+
+#main h2 {
+  font-size: 130%;
+  color: #293499;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#main h2, h4, p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#main p {
+  padding-bottom: 17px;
+}
+
+#main .separator:not(:last-child) {
+  clear: both;
+  margin: 0 15px;
+  border-bottom: 1px solid #aaa;
+}
+
+#main .picture {
+  border: 1px solid #45f;
+  float: left;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#main a {
+  text-decoration: none;
+  color: #533583;
+}
+#news {
+  width: 25%;
+  font-size: 80%;  
+}
+
+#news h2 {
+  font-size: 125%;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(111, 168, 252);
+  background-image: url('/image/news-head-bg.png');
+  background-repeat: repeat-x;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#news h3 {
+  font-size: 125%;
+  font-weight: bold;
+  float: left;
+  margin: 0 5px 0 5px;
+}
+
+#news p {
+  font-size: 125%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#news a {
+  color: #d00;
+  background-image: url('/image/red-arrow.png');
+  background-repeat: no-repeat;
+  padding-left: 13px;
+}
+
+#footer {
+  font-size: 70%;
+  background-color: #45f;
+}
+
+#footer p {
+  color: #ffffff;
+  margin: 5px;
+}
+
+#footer a {
+  color: #ffffff
+}
+
+.clear {
+  clear: both;
+}
+
+.forma {
+	width: 94%;
+	color: #293499; 
+	border: 3px solid #293499;
+	font-weight: bold;
+	font-size: 145%;
+	text-align: center;
+	margin: 10px auto;
+	height: 263px;	
+}
+
+.forma1 {
+	border-top: 3px solid #293499;
+	margin: 0 2px 0 2px;
+	font-size: 85%;
+	font-weight: lighter;
+} 
+
+.forma2 {
+	border-top: 3px solid #293499;
+	display: inline;
+	float: left;
+	margin: 0 0 0 2px;
+	width: 205px;
+}           
+
+.forma3 {
+	border-top: 3px solid #293499;
+	display: inline;
+	float: right;
+	margin: 0 2px 0 0px;
+	width:150px;
+} 
+
+.submit1 {
+	color: #293499;	
+	font-weight: lighter;
+	background-image: url("image/content-bg.png");
+	border: 2px solid #293499; 
+	padding: 2px 20px 2px 20px;
+	margin: 0 12px 0 40px;
+}
+
+.submit2 {
+	color: #293499;	
+	font-weight: lighter;
+	background-image: url("image/content-bg.png");
+	border: 2px solid #293499; 
+	padding: 2px 20px 2px 20px;
+	margin: 0 17px 0 17px;
+}
+
+.forma1 label {
+	float: left;
+	text-align: left;  
+	width: 190px;  
+}
+
+.forma1 input {
+	border: 2px solid #3529f3;
+	width: 130px;
+}
+
+#newProduct {
+  margin: 15px;
+  border: 3px solid #293499;
+}
+
+#newProduct h3 {
+  margin: 5px 0;
+  border-bottom: 2px solid #293499;
+  text-align: center;
+  color: #293499;
+  padding: 0 0 3px;
+}
+
+#newProduct label {
+  width: 176px;
+  display: block;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+  color: #293499;
+}
+
+#newProduct input {
+  width: 160px;
+  margin-bottom: 20px;
+  border: 1px solid #293499;
+}
+
+#add {
+  width: 180px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#add input {
+  background-color: rgb(152,193,255);
+}
+
+#editProduct {
+  margin: 15px;
+  border: 3px solid #293499;
+}
+
+#editProduct h3 {
+  margin: 5px 0;
+  border-bottom: 2px solid #293499;
+  text-align: center;
+  color: #293499;
+  padding: 0 0 3px;
+}
+
+#editProduct label {
+  width: 200px;
+  display: block;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+  color: #293499;
+}
+
+#editProduct input {
+  width: 300px;
+  margin-left: 5px;
+  margin-bottom: 16px;
+  margin-top: 3px;
+  border: 1px solid #293499;
+}
+
+#buy button,
+#edit button,
+#delete button {
+  width: 180px;
+  float: left;
+  text-align: center;
+  border-top: 2px solid #293499;
+  background-color: rgb(152,193,255);
+  padding-top: 5px;
+}
